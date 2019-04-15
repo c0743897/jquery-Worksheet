@@ -1,15 +1,28 @@
 <html>
-    <head>
+    <head><title>
+        The Example
+    </title>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
         </script>
-        <script type="texy/javascript">
-       
+        <script type="texy/javascript" language ="javascript">
+            $(document).ready(function(){
+           
+                var para=$(p);
+                for(i=0;i<para.length;i++){
+                    alert("Paragraph no:"+para[i].InnerHTML);
+                }
+                   
+                });
+            
         
         </script>
     </head>
     <body>
-        <p>
-            Click on the alert
-        </p>
+        <div>
+            <p class="myclass">First para.</p>
+            <p class="myid">Second para.</p>
+            <p>Third para.</p>
+        </div>>
+            
     </body>
 </html>
