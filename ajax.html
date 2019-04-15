@@ -7,8 +7,9 @@
         <script type="texy/javascript" language ="javascript">
             $(document).ready(function(){
            
-               var title=$("em").att("title");
-               $("#divid").text(title);
+               $("table").attr("border",function(arr){
+                   return arr;
+                });
                 });
             
         
@@ -16,12 +17,11 @@
         
     </head>
     <body>
-        <div>
-            <em title="Learn Jquery"></em>Introduction</em>
-            <p id="myid">First program</p>
-            <div id= "divid"></div>
-        </div>
-       
+        <table><tr><td>BE</td></tr></table>
+        <table><tr><td>BCA</td></tr></table>
+        <table><tr><td>BTECH</td></tr></table>
+        <table><tr><td>BBA</td></tr></table>
+        <table><tr><td>MBA</td></tr></table>
        
     </body>
 </html>
