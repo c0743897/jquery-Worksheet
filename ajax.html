@@ -1,31 +1,24 @@
 <html>
     <head><title>
-       filter method
+       find method
     </title>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
         </script>
         <script type="texy/javascript" language ="javascript">
             $(document).ready(function(){
            
-               $("li").filter("c2").addClass("selected");
+               $("li").find("span").addClass("selected");
                 });
             
         
         </script>
         <style>
         .selected{color:blue}
+        
         </style>
     </head>
     <body>
-        <div>
-           <ul>
-               <li>MBA</li>
-               <li>MCA</li>
-               <li>BBA</li>
-               <li>BCA</li>
-               <li>BTECH</li>
-           </ul>
-        </div>>
-            
+       <p>1st para<span>Tutorial ride</span></p>
+       <p>2nd para<span>E-learning</span></p>
     </body>
 </html>
