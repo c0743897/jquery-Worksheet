@@ -1,24 +1,27 @@
 <html>
     <head><title>
-       find method
+      getter
     </title>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
         </script>
         <script type="texy/javascript" language ="javascript">
             $(document).ready(function(){
            
-               $("li").find("span").addClass("selected");
+               var title=$("em").att("title");
+               $("#divid").text(title);
                 });
             
         
         </script>
-        <style>
-        .selected{color:blue}
         
-        </style>
     </head>
     <body>
-       <p>1st para<span>Tutorial ride</span></p>
-       <p>2nd para<span>E-learning</span></p>
+        <div>
+            <em title="Learn Jquery"></em>Introduction</em>
+            <p id="myid">First program</p>
+            <div id= "divid"></div>
+        </div>
+       
+       
     </body>
 </html>
