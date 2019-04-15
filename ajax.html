@@ -1,17 +1,13 @@
 <html>
     <head><title>
-        The Example
+       eq method
     </title>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
         </script>
         <script type="texy/javascript" language ="javascript">
             $(document).ready(function(){
            
-                var para=$(p);
-                for(i=0;i<para.length;i++){
-                    alert("Paragraph no:"+para[i].InnerHTML);
-                }
-                   
+               $("li").eq(3).addClass("selected");
                 });
             
         
@@ -19,9 +15,13 @@
     </head>
     <body>
         <div>
-            <p class="myclass">First para.</p>
-            <p class="myid">Second para.</p>
-            <p>Third para.</p>
+           <ul>
+               <li>MBA</li>
+               <li>McA</li>
+               <li>BBA</li>
+               <li>BCA</li>
+               <li>BTECH</li>
+           </ul>
         </div>>
             
     </body>
