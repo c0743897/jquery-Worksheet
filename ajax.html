@@ -1,23 +1,26 @@
 <html>
     <head><title>
-       eq method
+       filter method
     </title>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
         </script>
         <script type="texy/javascript" language ="javascript">
             $(document).ready(function(){
            
-               $("li").eq(3).addClass("selected");
+               $("li").filter("c2").addClass("selected");
                 });
             
         
         </script>
+        <style>
+        .selected{color:blue}
+        </style>
     </head>
     <body>
         <div>
            <ul>
                <li>MBA</li>
-               <li>McA</li>
+               <li>MCA</li>
                <li>BBA</li>
                <li>BCA</li>
                <li>BTECH</li>
